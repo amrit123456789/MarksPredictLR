@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>marks prediction</title>
+</head>
+<body>
+	<h1>marks prediction</h1>
+
+	<form method= "POST" action ="/" >
+		<input type="text" name="hour" placeholder="enter Hours">
+		
+
+		<input type="submit">
+	</form>
+
+	{% if your_marks %}
+
+	<h1> Your marks are: <i> {{your_marks}}</i>  </h1>
+	{% endif %}
+
+</body>
+</html>
